@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Shopping List Web App</title>
+        <meta charset="utf-8">
+        <link href="shop.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" language="javascript"></script>
+    </head>
+    
+    <body onload="loaditems()">
+        <div class="container">
+
+          <h1 class="head">Shopping List</h1>
+          <div class="add-item">
+            <form id="item">
+              <input type="text"  placeholder="Type in your item to buy" id="input" />
+              <button onclick="addBtn()">Add</button>
+            </form>
+           </div>
+           
+            <h2 class="title"><b><i>Unchecked Items:</i></b></h2>
+            <ul class="unchecked"></ul>
+
+            <h2 class="title"><b><i>Checked Items:</i></b></h2>
+            <ul class="checked"></ul>
+
+        </div>
+        
+        <script src="idb.js"></script> 
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="shop.js"></script>
+        
+    </body>
+    
+</html>

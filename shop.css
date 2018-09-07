@@ -1,0 +1,162 @@
+body {
+  width:100%;
+  height:100%;
+  background-image:url(http://res.cloudinary.com/hng-bellom/image/upload/v1536031834/img-shoppinglist.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-radius:10px;
+}
+
+.container {
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%;
+  height:1200px;  
+}
+.head{
+  color:#f06d06;
+  text-align:center;
+  padding-top:25px;
+  font-family:red;
+  font-size:52px;
+  text-shadow:3px 2px 2px #1111ee;
+}
+.title{
+  color:#f06d06;
+  text-align:center;
+  padding-top:25px;
+  font-family:red;
+  font-size:52px;
+  text-shadow:3px 2px 2px #1111ee;
+}
+form{
+  text-align:center;
+}
+
+i {
+    color: red;
+    text-align: center;
+    font-family:Lobster;
+    font-size: 40px;
+}
+
+.unchecked{
+  text-align:center;
+  list-style-type:none;
+  margin-top:10px;
+
+}
+.unchecked li{
+  border:1px solid black;
+  margin:1px 100px 0 100px;
+  padding:5px;
+  background:#C3C3E5;
+  border-radius:10px;
+}
+#delete{
+  float:right;
+  background:red;
+  border-radius:100%;
+}
+
+.check{
+  float:left;
+ -webkit-transition-duration: 0.4s;  /*Safari */
+  transition-duration: 0.4s;
+}
+.check:hover{
+  transform: scale(2.0);
+}
+
+#delete:hover{
+  transform: scale(2.0);
+  -webkit-transition-duration: 0.4s;  /*Safari */
+  transition-duration: 0.4s;
+}
+
+/* setting media query  */
+@media screen and (min-width:250px){
+
+.unchecked{
+  text-align:center;
+  list-style-type:none;
+  margin-top:10px;
+
+}
+.unchecked li{
+  border:1px solid black;
+  margin:25px -75px  -25px;
+  padding:5px;
+  background:#C3C3E5;
+  border-radius:20px;
+}
+    
+.checked{
+  text-align:center;
+  list-style-type:none;
+  margin-top:10px;
+
+}
+.checked li{
+  border:1px solid black;
+  margin:25px -75px  -25px;
+  padding:5px;
+  background:#C3C3E5;
+  border-radius:20px;
+  text-decoration: line-through;
+}
+#delete{
+  background:red;
+  border-radius:600%;
+  float: right;
+}
+  
+ .check{
+    float:left;
+}
+
+}
+
+
+
+@media screen and (min-width:833px){
+
+.unchecked{
+  text-align:center;
+  list-style-type:none;
+  margin-top:10px;
+
+}
+.unchecked li{
+  border:1px solid black;
+  margin:1px 40px 0 40px;
+  padding:10px;
+  background:#C3C3E5;
+  border-radius:10px;
+}
+.checked{
+  text-align:center;
+  list-style-type:none;
+  margin-top:10px;
+
+}
+.checked li{
+  border:1px solid black;
+  margin:1px 40px 0 40px;
+  padding:10px;
+  background:#C3C3E5;
+  border-radius:10px;
+  text-decoration: line-through;
+}
+#delete{
+  float:right;
+  background:red;
+  border-radius:100%;
+}
+
+.check{
+  float:left;
+}
+    
+    
+}
