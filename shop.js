@@ -29,7 +29,7 @@
     function addBtn(){
         let item = $("#input").val();
         for (i in item){
-           if(item.length > 20){
+           if(item.length > 16){
               alert('item name to long');
               return false;
            } 
